@@ -482,7 +482,7 @@
   @media (max-width: 680px) {
     nav { padding: 0 20px; }
     .nav-links, .btn-signin { display: none; }
-    .nav-links.open { display: flex; flex-direction: column; position: fixed; top: var(--nav-h); left: 0; right: 0; background: var(--cream-light); padding: 16px 20px; border-bottom: 1px solid var(--border); gap: 4px; z-index: 99; }
+    .nav-links.open { display: flex; flex-direction: column; position: fixed; top: var(--nav-h); left: 0; right: 0; background: var(--cream-light); padding: 16px 20px; border-bottom: 1px solid var(--border); }
     .btn-signin.open { display: flex; margin: 0 20px 12px; }
     .nav-hamburger { display: block; }
     .section { padding: 56px 20px; }
@@ -521,10 +521,6 @@
     <button class="nav-link active" id="nav-home" onclick="showPage('home')">Home</button>
     <button class="nav-link" id="nav-properties" onclick="showPage('properties')">Properties</button>
     <button class="nav-link" id="nav-contact" onclick="showPage('contact')">Contact</button>
-    <a class="btn-signin open" href="mailto:rigstormlabs@gmail.com">
-      <svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-      Sign In
-    </a>
   </div>
 
   <a class="btn-signin" id="nav-signin" href="mailto:rigstormlabs@gmail.com">
@@ -578,7 +574,7 @@
           Browse Properties
         </button>
         <button class="btn-outline" onclick="showPage('contact')">
-          <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.59 3.47 2 2 0 0 1 3.56 1.34h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l1.02-.9a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.59 3.18 19.79 19.79 0 0 1 11.18 1 19.5 19.5 0 0 1 21.5 11.5z"/><path d="M16 8a6 6 0 0 0-5.919-6"/></svg>
           Schedule a Call
         </button>
       </div>
@@ -650,7 +646,7 @@
         <div class="about-text">
           <div class="section-eyebrow">About Us</div>
           <h2 class="section-title">Built on Trust, Rooted in Tamil Nadu</h2>
-          <p class="about-body">RigStorm LandAura is a trusted platform where landowners showcase their properties with prestige, and buyers discover opportunities with confidence. We are committed to making land transactions transparent, legal, and accessible across every district of Tamil Nadu.</p>
+          <p class="about-body">RigStorm LandAura is a trusted platform where landowners showcase their properties with prestige, and buyers discover opportunities with confidence. We are committed to redefining land transactions in Tamil Nadu with integrity and innovation.</p>
           <button class="btn-green" onclick="showPage('contact')">Learn More</button>
         </div>
       </div>
@@ -661,14 +657,14 @@
   <div class="cta-banner">
     <div class="container">
       <h2 class="section-title" style="color:var(--white);margin-bottom:14px">Ready to Invest in Land?</h2>
-      <p class="section-desc" style="color:rgba(255,255,255,0.72);margin-bottom:36px">Whether you are a first-time buyer or a seasoned investor, our team is here to help you find the perfect property. Schedule a free consultation today.</p>
+      <p class="section-desc" style="color:rgba(255,255,255,0.72);margin-bottom:36px">Whether you are a first-time buyer or a seasoned investor, our team is here to help you find the perfect property.</p>
       <div class="cta-row">
         <button class="btn-gold" onclick="showPage('properties')">
           <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" width="17" height="17"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
           Browse Properties
         </button>
         <button class="btn-outline-white" onclick="showPage('contact')">
-          <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" width="17" height="17"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.59 3.47 2 2 0 0 1 3.56 1.34h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l1.02-.9a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" width="17" height="17"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.59 3.18 19.79 19.79 0 0 1 11.18 1 19.5 19.5 0 0 1 21.5 11.5z"/><path d="M16 8a6 6 0 0 0-5.919-6"/></svg>
           Schedule a Call
         </button>
       </div>
@@ -875,7 +871,7 @@
 
       <div class="contact-actions">
         <a class="btn-wa" href="https://wa.me/?text=Hello%20RigStorm%20LandAura" target="_blank">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.556 4.122 1.528 5.855L.057 23.929 6.27 22.48A11.934 11.934 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 0 1-5.001-1.368l-.358-.213-3.718.977.993-3.618-.234-.372A9.818 9.818 0 1 1 12 21.818z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.299.267-.595.134-.297-.134-1.237-.457-2.356-1.455-.872-.777-1.461-1.738-1.634-2.034-.173-.297-.018-.458.13-.606.134-.134.297-.348.446-.523.149-.175.198-.297.298-.496.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.918-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.537 0-2.852-.666-2.852-1.486 0-.821 1.287-1.487 2.852-1.487 1.565 0 2.853.666 2.853 1.487 0 .82-1.288 1.486-2.849 1.486"/></svg>
           WhatsApp
         </a>
         <a class="btn-email-link" href="mailto:rigstormlabs@gmail.com">
@@ -998,110 +994,49 @@
         <div class="admin-stat-val">—</div>
         <div class="admin-stat-note">No transactions yet</div>
       </div>
-      <div class="admin-stat">
-        <div class="admin-stat-label">Inquiries Received</div>
-        <div class="admin-stat-val">—</div>
-        <div class="admin-stat-note">No inquiries yet</div>
-      </div>
-    </div>
-
-    <div class="admin-table-wrap">
-      <div class="admin-table-head">
-        <h3>Recent Submissions</h3>
-        <button class="btn-green" style="font-size:0.85rem;padding:8px 16px">Export CSV</button>
-      </div>
-      <div class="admin-empty">
-        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
-        No contact submissions yet. They will appear here once received.
-      </div>
-    </div>
-
-    <div class="admin-table-wrap">
-      <div class="admin-table-head">
-        <h3>Commission Logs</h3>
-        <button class="btn-green" style="font-size:0.85rem;padding:8px 16px">Export CSV</button>
-      </div>
-      <div class="admin-empty">
-        <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-        No commission transactions logged yet.
-      </div>
-    </div>
-
-    <div class="admin-table-wrap">
-      <div class="admin-table-head">
-        <h3>Manage Listings</h3>
-        <button class="btn-add">
-          <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2.2" width="15" height="15"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-          Add New Listing
-        </button>
-      </div>
-      <div class="admin-empty">
-        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        No property listings yet. Add your first verified listing above.
-      </div>
     </div>
   </div>
 </div>
 
 <script>
-  // ── PAGE ROUTING ──
-  function showPage(name) {
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  function showPage(page) {
+    const pages = document.querySelectorAll('.page');
+    pages.forEach(p => p.classList.remove('active'));
+    document.getElementById('page-' + page).classList.add('active');
     document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-    document.getElementById('page-' + name).classList.add('active');
-    const navEl = document.getElementById('nav-' + name);
-    if (navEl) navEl.classList.add('active');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('nav-' + page).classList.add('active');
     closeMenu();
-    history.replaceState(null, '', name === 'home' ? '/' : '/' + name);
+    window.scrollTo(0, 0);
   }
 
-  // Admin hidden route
-  function checkRoute() {
-    const path = location.pathname;
-    if (path === '/admin' || path === '/admin/') showPage('admin');
-  }
-  checkRoute();
-
-  // ── HAMBURGER ──
   function toggleMenu() {
-    const links = document.getElementById('nav-links');
-    const btn = document.getElementById('nav-signin');
-    links.classList.toggle('open');
-    btn && btn.classList.toggle('open');
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('open');
   }
+
   function closeMenu() {
     document.getElementById('nav-links').classList.remove('open');
-    const btn = document.getElementById('nav-signin');
-    btn && btn.classList.remove('open');
   }
 
-  // ── CONTACT FORM ──
   function submitForm() {
-    const email = document.getElementById('f-email').value.trim();
-    if (!email || !email.includes('@')) {
-      document.getElementById('f-email').focus();
-      document.getElementById('f-email').style.borderColor = '#e53e3e';
+    const name = document.getElementById('f-name').value;
+    const email = document.getElementById('f-email').value;
+    const interest = document.getElementById('f-interest').value;
+    const message = document.getElementById('f-message').value;
+    
+    if (!email) {
+      alert('Please enter your email');
       return;
     }
-    const name = document.getElementById('f-name').value.trim();
-    const interest = document.getElementById('f-interest').value;
-    const message = document.getElementById('f-message').value.trim();
-
-    const subject = encodeURIComponent('LandAura Inquiry' + (interest ? ' – ' + interest : ''));
-    const body = encodeURIComponent(
-      (name ? 'Name: ' + name + '\n' : '') +
-      'Email: ' + email + '\n' +
-      (interest ? 'Interest: ' + interest + '\n' : '') +
-      (message ? '\nMessage:\n' + message : '')
-    );
-    window.location.href = 'mailto:rigstormlabs@gmail.com?subject=' + subject + '&body=' + body;
-
+    
+    const subject = `LandAura Inquiry - ${interest || 'General'}`;
+    const body = `Name: ${name}%0AEmail: ${email}%0AInterest: ${interest}%0A%0AMessage:%0A${message}`;
+    window.location.href = `mailto:rigstormlabs@gmail.com?subject=${subject}&body=${body}`;
+    
     document.getElementById('form-success').style.display = 'block';
-    setTimeout(() => {
-      document.getElementById('form-success').style.display = 'none';
-    }, 6000);
+    document.getElementById('contact-form').reset();
   }
 </script>
+
 </body>
 </html>
